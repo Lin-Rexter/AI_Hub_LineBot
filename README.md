@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 ## AI_Hub_LineBot
 ChatGPT、 EdgeGPT、 Image Creator、 DALL_E、 Other AI Application with Line Bot
 
