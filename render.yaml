@@ -5,4 +5,4 @@ services:
     plan: starter
     buildCommand: poetry install
     startCommand: gunicorn main:app
-    autoDeploy: true
+    autoDeploy: false
