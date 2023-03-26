@@ -3,12 +3,12 @@
 ## AI_Hub_LineBot
 ChatGPT、 EdgeGPT、 Image Creator、 DALL_E、 Other AI Application with Line Bot
 
-## AI Application Introduction
-**1. [ChatGPT](https://github.com/acheong08/ChatGPT)**<br>
-**2. [EdgeGPT](https://github.com/acheong08/EdgeGPT#image-generator)**<br>
-**3. [Bing Image Creator](https://github.com/acheong08/EdgeGPT#chatbot)**<br>
-**4. [DALL_E](https://platform.openai.com/docs/api-reference/images)**<br>
-**5. ...**
+## AI Introduction
+- **[ChatGPT](https://github.com/acheong08/ChatGPT)**<br>
+- **[EdgeGPT](https://github.com/acheong08/EdgeGPT#image-generator)**<br>
+- **[Bing Image Creator](https://github.com/acheong08/EdgeGPT#chatbot)**<br>
+- **[DALL·E](https://platform.openai.com/docs/api-reference/images)**<br>
+- **More...**
 
 ## Supported languages
 - **Chinese**
@@ -18,7 +18,7 @@ ChatGPT、 EdgeGPT、 Image Creator、 DALL_E、 Other AI Application with Line 
 <details>
   <summary>
   
-### How to use
+## How to use
 
   </summary>
 
