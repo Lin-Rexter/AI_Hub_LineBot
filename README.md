@@ -1,7 +1,14 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python: 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)]()
+
+<div align="center">
 
 ## AI_Hub_LineBot
 ChatGPT、 EdgeGPT、 Image Creator、 DALL_E、 Other AI Application with Line Bot
+
+</div>
+
+---
 
 ## AI Introduction
 - **[ChatGPT](https://github.com/acheong08/ChatGPT)**<br>
