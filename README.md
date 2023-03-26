@@ -17,7 +17,9 @@ ChatGPT、 EdgeGPT、 Image Creator、 DALL_E、 Other AI Application with Line 
 
 <details>
   <summary>
-## How to use
+  
+### How to use
+
   </summary>
 
 **1. [Set Environment Variables](https://github.com/Lin-Rexter/AI_Hub_LineBot/blob/e52aedb1696fec5df5e476c5714514a6dbf57403/.env)**<br>
@@ -25,4 +27,5 @@ ChatGPT、 EdgeGPT、 Image Creator、 DALL_E、 Other AI Application with Line 
 **3. Run `poetry shell`**<br>
 **4. Run `poetry install`**<br>
 **5. Run `python ./main.py`**<br>
+
 </details>
