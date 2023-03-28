@@ -293,14 +293,14 @@ files = [
 
 [[package]]
 name = "edgegpt"
-version = "0.1.10.1"
+version = "0.1.11"
 description = "Reverse engineered Edge Chat API"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "EdgeGPT-0.1.10.1-py3-none-any.whl", hash = "sha256:bafcef3d7293e306cc7cfb3c61fdff6b572391c3ab613480d0c403f852f6343f"},
-    {file = "EdgeGPT-0.1.10.1.tar.gz", hash = "sha256:1f5f356784e7c6013c03d3867d2bb7dd7de59faa2a7efcdcf7ab0ac583d284ea"},
+    {file = "EdgeGPT-0.1.11-py3-none-any.whl", hash = "sha256:0c2ba25997748d414cfb915368973b61a9819320503584d197f5612f5787d173"},
+    {file = "EdgeGPT-0.1.11.tar.gz", hash = "sha256:0d5f79eee531429ed6d13247a4a398020285cce1c8fad630155e78b484ae8a91"},
 ]
 
 [package.dependencies]
@@ -1018,14 +1018,14 @@ use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "revchatgpt"
-version = "4.0.9"
+version = "4.0.11"
 description = "ChatGPT is a reverse engineering of OpenAI's ChatGPT API"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "revChatGPT-4.0.9-py3-none-any.whl", hash = "sha256:90340a1c7c6abfd9e6ee3147b9d1b4fbe2de85cfe444d409eab1ef5cf178d93e"},
-    {file = "revChatGPT-4.0.9.tar.gz", hash = "sha256:786dd4f8d8ed63ba64f415c1a008df06a0a36be84476c3243ec0b29d8be415e0"},
+    {file = "revChatGPT-4.0.11-py3-none-any.whl", hash = "sha256:a6fa94d0d3bca8661c85aad3ec19df9056cf85c1b5f596986cfcf2ceffc17080"},
+    {file = "revChatGPT-4.0.11.tar.gz", hash = "sha256:42320eec04524a96f970d972ba24e93a0eccb8a346beb25bf5bd8d7a7c74b491"},
 ]
 
 [package.dependencies]
@@ -1056,14 +1056,14 @@ idna2008 = ["idna"]
 
 [[package]]
 name = "rich"
-version = "13.3.2"
+version = "13.3.3"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
 category = "main"
 optional = false
 python-versions = ">=3.7.0"
 files = [
-    {file = "rich-13.3.2-py3-none-any.whl", hash = "sha256:a104f37270bf677148d8acb07d33be1569eeee87e2d1beb286a4e9113caf6f2f"},
-    {file = "rich-13.3.2.tar.gz", hash = "sha256:91954fe80cfb7985727a467ca98a7618e5dd15178cc2da10f553b36a93859001"},
+    {file = "rich-13.3.3-py3-none-any.whl", hash = "sha256:540c7d6d26a1178e8e8b37e9ba44573a3cd1464ff6348b99ee7061b95d1c6333"},
+    {file = "rich-13.3.3.tar.gz", hash = "sha256:dc84400a9d842b3a9c5ff74addd8eb798d155f36c1c91303888e0a66850d2a15"},
 ]
 
 [package.dependencies]
@@ -1075,14 +1075,14 @@ jupyter = ["ipywidgets (>=7.5.1,<9)"]
 
 [[package]]
 name = "setuptools"
-version = "67.6.0"
+version = "67.6.1"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "setuptools-67.6.0-py3-none-any.whl", hash = "sha256:b78aaa36f6b90a074c1fa651168723acbf45d14cb1196b6f02c0fd07f17623b2"},
-    {file = "setuptools-67.6.0.tar.gz", hash = "sha256:2ee892cd5f29f3373097f5a814697e397cf3ce313616df0af11231e2ad118077"},
+    {file = "setuptools-67.6.1-py3-none-any.whl", hash = "sha256:e728ca814a823bf7bf60162daf9db95b93d532948c4c0bea762ce62f60189078"},
+    {file = "setuptools-67.6.1.tar.gz", hash = "sha256:257de92a9d50a60b8e22abfcbb771571fde0dbf3ec234463212027a4eeecbe9a"},
 ]
 
 [package.extras]
