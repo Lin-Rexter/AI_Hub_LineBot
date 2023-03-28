@@ -104,7 +104,7 @@ Openai_Api_Key = openai_api_key
 # Flask 首頁
 @app.route('/')
 def welcome():
-    return "<h1>AI Together應用運行中...</h1>"
+    return "<h1>AI Hub LineBot應用運行中...</h1>"
     #return render_template('welcome.html')
 
 # Line Bot Webhook
@@ -137,7 +137,10 @@ def handle_message(event):
     if(user_message).startswith(tuple(useful_commands)):
         result = commands(user_message)
         if(isinstance(result, list)):
-            reply = Image_Carousel("Open", result)
+            if len(result[1]) > 0:
+                reply = Image_Carousel("Open", result)
+            else:
+                reply = reply_send("Oops❗ 似乎沒有圖片，可能是圖片描述包含被審查的關鍵字，請嘗試移除敏感語句!")
         elif(isinstance(result, str)):
             reply = reply_send(result)
     elif(user_message).startswith(tuple(ignore_commands)):
@@ -170,7 +173,7 @@ def translate(texts):
 def commands(command):
     # 指令對應功能
     commands_list = {
-        '/gpt': lambda msg: ChatGPT_Reply(Openai_Api_Key, "gpt-3.5-turbo", msg),
+        '/gpt': lambda msg: ChatGPT_Reply(msg),
         '/gpt4': lambda msg: EdgeGPT_Reply(msg),
         '/img': lambda msg: Image_Creator_Reply(translate(msg)),
         '/dalle': lambda msg: DALL_E_Reply(Openai_Api_Key, msg, 1, "256x256") #256x256, 512x512, 1024x1024 pixels
