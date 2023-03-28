@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "AI_Hub_LineBot"
-version = "0.1.5"
+version = "0.2.0"
 description = "ChatGPT、BingGPT、Image Creator、DALL_E、Other AI Application with Line Bot"
 authors = ["Lin-Rexter <aaaa35963596@gmail.com>"]
 license = "MIT"
