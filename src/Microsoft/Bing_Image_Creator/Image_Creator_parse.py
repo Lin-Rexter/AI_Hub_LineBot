@@ -15,11 +15,16 @@ def Image_Creator_Reply(prompt, cookie_file='./src/Microsoft/Bing_Image_Creator/
     if U is None:
         raise Exception("Could not find auth cookie")
 
-    # Create image generator
-    image_generator = ImageGen(U)
-    images_list = image_generator.get_images(prompt)
-    normal_image_links = [link.split("?w=")[0] for link in images_list]
-    return [prompt, normal_image_links]
+    try:
+        # Create image generator
+        image_generator = ImageGen(U)
+        images_list = image_generator.get_images(prompt)
+    except:
+        images_list = []
+
+    # 移除圖片限制
+    # normal_image_links = [link.split("?w=")[0] for link in images_list]
+    return [prompt, images_list]
     """
     image_generator.save_images(
         image_generator.get_images(prompt),
