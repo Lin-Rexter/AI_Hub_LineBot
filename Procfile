@@ -1,1 +1,1 @@
-poetry install;poetry shell; python ./main.py
+web: gunicorn main:app
