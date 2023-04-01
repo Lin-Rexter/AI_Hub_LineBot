@@ -1,1 +1,1 @@
-web: gunicorn main:app
+poetry run python ./main.py
