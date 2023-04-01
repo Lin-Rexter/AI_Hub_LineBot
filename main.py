@@ -192,4 +192,4 @@ def commands(command):
 
 if __name__ == "__main__":
     #app.secret_key = os.urandom(16) # Flask flash需要Session，因此需生成密鑰，防止CSRF。
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port="5000")
