@@ -1,1 +1,1 @@
-poetry shell
+poetry install;poetry shell; python ./main.py
