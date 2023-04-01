@@ -22,7 +22,7 @@ def Image_Creator_Reply(prompt, cookie_file='./src/Microsoft/Bing_Image_Creator/
     except:
         images_list = []
 
-    # 移除圖片限制
+    # 移除圖片大小限制
     # normal_image_links = [link.split("?w=")[0] for link in images_list]
     return [prompt, images_list]
     """
