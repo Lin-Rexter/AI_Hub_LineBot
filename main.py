@@ -61,8 +61,7 @@ from src.OpenAI.DALL_E import DALL_E_Reply
 from src.Microsoft.Bing_Image_Creator import Image_Creator_Reply
 
 # 翻譯器
-from googletrans import Translator
-translator = Translator()
+from deep_translator import GoogleTranslator
 
 # 讀取.env檔環境變量
 load_dotenv('.env')
@@ -165,9 +164,9 @@ def handle_message(event):
 
 # 翻譯處理
 def translate(texts):
-    translated = translator.translate(text=texts, dest='en')
-    print("\n翻譯結果: " + translated.text + "\n")
-    return translated.text
+    translated = GoogleTranslator(source='auto', target='en').translate(texts) 
+    print("\n翻譯結果: " + translated + "\n")
+    return translated
 
 # 命令對應第三方功能處理
 def commands(command):
