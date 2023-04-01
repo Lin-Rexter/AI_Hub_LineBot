@@ -1,1 +1,1 @@
-poetry run python ./main.py
+poetry shell
