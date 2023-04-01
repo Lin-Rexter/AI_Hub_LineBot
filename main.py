@@ -26,9 +26,8 @@ from flask import (
 # LineBot
 from linebot import (
     LineBotApi,
-    WebhookParser
+    WebhookHandler
 )
-#WebhookHandler
 
 # LineBot
 from linebot.exceptions import (
@@ -94,8 +93,8 @@ if not openai_api_key:
 
 # 設置Line Bot的TOKEN、 SECRET、 USER_ID
 line_bot_api = LineBotApi(channel_access_token)
-handler = WebhookParser(channel_secret)
-user_id = WebhookParser(line_user_id)
+handler = WebhookHandler(channel_secret)
+user_id = WebhookHandler(line_user_id)
 
 # 設置OpenAI Api的Key
 Openai_Api_Key = openai_api_key
@@ -117,19 +116,12 @@ def callback():
     body = request.get_data(as_text=True)
     app.logger.info("Request body: " + body)
 
-    # parse webhook body
-    try:
-        events = parser.parse(body, signature)
-    except InvalidSignatureError:
-        abort(400)
-    """
     # handle webhook body
     try:
         handler.handle(body, signature)
     except InvalidSignatureError:
         print("Invalid signature. Please check your channel access token/channel secret.")
         abort(400)
-    """
 
     return 'OK'
 
